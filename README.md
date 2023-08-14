@@ -19,7 +19,11 @@ This is a simple weather app that displays the current weather information for a
 
 ## App
 
+[Alt text](<Images/Screenshot 2023-08-14 at 10.37.51 AM.png>)
+
 ## Deployed URL
+
+
 
 
 
