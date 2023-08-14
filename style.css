@@ -1,0 +1,170 @@
+:root {
+    --zero: #ffffff;
+    --one: #ffffff;
+    --two: #ffffff;
+    --three: #0a0808;
+    --four: #010000;
+    --five: #000000;
+  }
+  
+  .current-date {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    color: #000000;
+  }
+  
+  .iphone-container {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #000000;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .iphone-screen {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: fit-content;
+    width: fit-content;
+    padding: 0%;
+    overflow: auto;
+    position: relative;
+  }
+  
+  .iphone-notch {
+    position: relative;
+    height: 10px;
+    width: 40%;
+    background-color: black;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    margin: 0 auto;
+    transform: rotate(180deg);
+  }
+  
+  .card {
+    background: linear-gradient(135deg, var(--one), var(--two));
+    color: var(--three);
+    padding: 16px;
+    border-radius: 15px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search input {
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    background-color: #2670bb;
+    color: white;
+    border: none;
+    padding: 2px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #1e5aae;
+  }
+  
+  .weather {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .temp {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .city {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .details .col {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .humidity,
+  .wind {
+    margin-bottom: 1px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .week-report {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .day {
+    flex-basis: calc(20% - 10px);
+    margin-bottom: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(156, 197, 225);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .day-name {
+    font-weight: bold;
+  }
+  
+  .day-temperature {
+    font-size: 14px;
+  }
+  
+  .day-weather {
+    font-size: 12px;
+  }
+  
+  body {
+    background-color: rgba(148, 217, 228, 0.629);
+  }
+  

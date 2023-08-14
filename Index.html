@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css"> <!-- Add the path to your modified CSS file -->
+</head>
+<body>
+    <div class="iphone-container">
+        <div class="iphone-screen">
+            <div class="iphone-notch"></div>
+            <p class="current-date"></p>
+
+            <div class="card">
+                <div class="search">
+                    <input type="text" placeholder="Enter city name" spellcheck="false">
+                    <button class="search-button">Search</button>
+                </div>
+                <div class="weather">
+                    <img src="Images/sunny.png" class="weather-icon">
+                    <h1 class="temp">88°F</h1>
+                    <h2 class="city">Anaheim</h2>
+                    
+                    <div class="details">
+                        <div class="col">
+                            <div>
+                                <img src="Images/Humidity-icon.png" alt="Humidity" class="icon">
+                                <p class="humidity">40%</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <img src="Images/wind.jpg" alt="Wind" class="icon">
+                                <p class="wind">6mph</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="week-report">
+                        <h3>5-Day Forecast</h3>
+                        <div class="forecast">
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
