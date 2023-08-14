@@ -22,7 +22,7 @@ This is a simple weather app that displays the current weather information for a
 ![Alt text](<Images/Screenshot 2023-08-14 at 10.37.51 AM.png>)
 
 ## Deployed URL
-
+https://wei18889.github.io/Weather_App/
 
 
 
