@@ -27,14 +27,6 @@ This is a simple weather app that displays the current weather information for a
 
 
 
-## Getting Started
-
-To run the weather app locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/weather-app.git`
-2. Navigate to the project directory: `cd weather-app`
-3. Open the `index.html` file in your web browser.
-
 ## Usage
 
 1. Enter the name of a city in the search input field.
